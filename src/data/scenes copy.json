@@ -1,0 +1,1369 @@
+{
+  "start": {
+    "video": "/video/start.mp4",
+    "duration": 153.68,
+    "descr": "Выбор завтрака",
+    "choices": [
+      {
+        "text": "Sugar Puffs",
+        "next": "scene1"
+      },
+      {
+        "text": "Frosties",
+        "next": "scene2"
+      }
+    ]
+  },
+  "scene1": {
+    "video": "/video/1.mp4",
+    "duration": 53.80,
+    "descr": "Sugar Puffs / Выбор кассеты",
+    "cereal": "Sugar Puffs",
+    "choices": [
+      {
+        "text": "Кассета 1",
+        "next": "scene3"
+      },
+      {
+        "text": "Кассета 2",
+        "next": "scene4"
+      }
+    ]
+  },
+  "scene2": {
+    "video": "/video/2.mp4",
+    "duration": 54.47,
+    "descr": "Frosties / Выбор кассеты",
+    "cereal": "Frosties",
+    "choices": [
+      {
+        "text": "Кассета 1",
+        "next": "scene3"
+      },
+      {
+        "text": "Кассета 2",
+        "next": "scene4"
+      }
+    ]
+  },
+  "scene3": {
+    "video": "/video/3.mp4",
+    "duration": 274.20,
+    "descr": "Кассета 1 / Согласиться на оффер?",
+    "choices": [
+      {
+        "text": "Согласиться",
+        "next": "scene5"
+      },
+      {
+        "text": "Отказаться",
+        "next": "scene9"
+      }
+    ]
+  },
+  "scene4": {
+    "video": "/video/4.mp4",
+    "duration": 276.20,
+    "descr": "Кассета 2 / Согласиться на оффер?",
+    "choices": [
+      {
+        "text": "Согласиться",
+        "next": "scene7"
+      },
+      {
+        "text": "Отказаться",
+        "next": "scene9"
+      }
+    ]
+  },
+  "scene5": {
+    "video": "/video/5.mp4",
+    "duration": 90.04,
+    "descr": "Согласился на оффер / Конец",
+     "choices": [
+      {
+        "text": "Попробовать снова",
+        "next": "scene6"
+      }
+    ]
+  },
+  "scene6": {
+    "video": "/video/6.mp4",
+    "duration": 140,
+    "descr": "Согласился на оффер 2 / Конец (Кассета 1)",
+    "choices": [
+      {
+        "text": "Согласиться",
+        "next": "scene58"
+      },
+      {
+        "text": "Отказаться",
+        "next": "scene9"
+      }
+    ]
+  },
+  "scene7": {
+    "video": "/video/7.mp4",
+    "type": "tv",
+    "duration": 90.04,
+    "descr": "Согласился на оффер 2 / Конец (Кассета 2)",
+    "choices": [
+      {
+        "text": "Попробовать снова",
+        "next": "scene8"
+      }
+    ]
+  },
+  "scene8": {
+    "video": "/video/8.mp4",
+    "duration": 140.68,
+    "descr": "Согласился на оффер 2 / Конец (Кассета 2)",
+    "choices": [
+      {
+        "text": "Согласиться",
+        "next": "scene58"
+      },
+      {
+        "text": "Отказаться",
+        "next": "scene9"
+      }
+    ]
+  },
+  "scene9": {
+    "video": "/video/9.mp4",
+    "duration": 317.44,
+    "descr": "Поговорить о маме?",
+    "choices": [
+      {
+        "text": "Поговорить о маме",
+        "next": "scene10"
+      },
+      {
+        "text": "Ничего не рассказывать",
+        "next": "scene66"
+      }
+    ]
+  },
+  "scene10": {
+    "video": "/video/10.mp4",
+    "duration": 59.44,
+    "descr": "Пойти с мамой?",
+    "choices": [
+      {
+        "text": "Искать игрушку",
+        "next": "scene11"
+      }
+    ]
+  },
+  "scene11": {
+    "video": "/video/11.mp4",
+    "duration": 137.32,
+    "descr": "Выбрать виниловую пластинку",
+    "choices": [
+      {
+        "text": "Белый винил",
+        "next": "scene12"
+      },
+      {
+        "text": "Синий винил",
+        "next": "scene68"
+      }
+    ]
+  },
+  "scene12": {
+    "video": "/video/12.mp4",
+    "duration": 191.64,
+    "descr": "Белый винил -> Вылить чай / Наорать на отца",
+    "choices": [
+      {
+        "text": "Вылить чай",
+        "next": "scene13"
+      },
+      {
+        "text": "Наорать на отца",
+        "next": "scene15"
+      }
+    ]
+  },
+  "scene13": {
+    "video": "/video/13.mp4",
+    "duration": 40.28,
+    "descr": "Вылить чай -> Конец",
+    "type": "tv",
+    "choices": [
+      {
+        "text": "Попробовать еще раз",
+        "next": "scene14"
+      }
+    ]
+  },
+  "scene14": {
+    "video": "/video/14.mp4",
+    "duration": 30.08,
+    "descr": "Реакция на отца2",
+    "choices": [
+        {
+        "text": "Вылить чай",
+        "next": "scene13"
+      },
+      {
+        "text": "Наорать на отца",
+        "next": "scene15"
+      }
+    ]
+  },
+  "scene15": {
+    "video": "/video/15.mp4",
+    "duration": 90.24,
+    "descr": "Наорать на отца -> Идти к психологу / Идти за Колином",
+    "choices": [
+        {
+        "text": "Идти к психологу",
+        "next": "scene16"
+      },
+      {
+        "text": "Идти за Колином",
+        "next": "scene32"
+      }
+    ]
+  },
+  "scene16": {
+    "video": "/video/16.mp4",
+    "duration": 68.76,
+    "descr": "Психолог -> Ноготь / Ухо",
+    "choices": [
+      {
+        "text": "Грызть ноготь",
+        "next": "scene17"
+      },
+      {
+        "text": "Дергать ухо",
+        "next": "scene73"
+      }
+    ]
+  },
+  "scene17": {
+    "video": "/video/17.mp4",
+    "duration": 93.16,
+    "descr": "Ноготь -> Пить таблетки / Не пить",
+    "choices": [
+      {
+        "text": "Пить таблетки",
+        "next": "scene18"
+      },
+      {
+        "text": "Не пить таблетки"
+      }
+    ],
+    "condition": {
+      "cases": [
+        {
+          "when": {
+            "cereal": "Sugar Puffs",
+            "isCalinAlife": true
+          },
+          "next": "scene20"
+        },
+        {
+          "when": {
+            "cereal": "Sugar Puffs",
+            "isCalinAlife": false
+          },
+          "next": "scene62"
+        },
+        {
+          "when": {
+            "cereal": "Frosties",
+            "isCalinAlife": true
+          },
+          "next": "scene61"
+        },
+        {
+          "when": {
+            "cereal": "Frosties",
+            "isCalinAlife": false
+          },
+          "next": "scene54"
+        }
+      ],
+      "default": "scene20"
+    }
+  },
+  "scene18": {
+    "video": "/video/18.mp4",
+    "duration": 95.84,
+    "descr": "ТВ Плохой отзыв -> Таблетки / за кем идти",
+    "type": "tv",
+    "choices": [
+      {
+        "text": "Идти к психологу?",
+        "next": "scene78"
+      },
+        {
+        "text": "Пить таблетки?",
+        "next": "scene19"
+      }
+    ]
+  },
+  "scene19": {
+    "video": "/video/19.mp4",
+    "duration": 30.08,
+    "descr": "Пить таблетки / Не пить",
+    "choices": [
+      {
+        "text": "Пить таблетки",
+        "next": "scene18"
+      },
+      {
+        "text": "Не пить таблетки"
+      }
+    ],
+    "condition": {
+      "cases": [
+        {
+          "when": {
+            "cereal": "Sugar Puffs",
+            "isCalinAlife": true
+          },
+          "next": "scene20"
+        },
+        {
+          "when": {
+            "cereal": "Sugar Puffs",
+            "isCalinAlife": false
+          },
+          "next": "scene62"
+        },
+        {
+          "when": {
+            "cereal": "Frosties",
+            "isCalinAlife": true
+          },
+          "next": "scene61"
+        },
+        {
+          "when": {
+            "cereal": "Frosties",
+            "isCalinAlife": false
+          },
+          "next": "scene54"
+        }
+      ],
+      "default": "scene20"
+    }
+  },
+  "scene20": {
+    "video": "/video/20.mp4",
+    "duration": 245.04,
+    "descr": "(Колин жив, Sugar Puffs) Не пить таблетки -> Ударить стол / Сломать все",
+    "choices": [
+      {
+        "text": "Ударить стол",
+        "next": "scene23"
+      },
+      {
+        "text": "Сломать все",
+        "next": "scene21"
+      }
+    ]
+  },
+  "scene21": {
+    "video": "/video/21.mp4",
+    "duration": 51.2,
+    "type": "tv",
+    "descr": "Сломать все -> Пойти к психологу / Сломать все?",
+    "choices": [
+      {
+        "text": "Пойти к психологу?",
+        "next": "scene31"
+      },
+      {
+        "text": "Сломать все?",
+        "next": "scene22"
+      }
+    ]
+  },
+  "scene22": {
+    "video": "/video/22.mp4",
+    "duration": 33.08,
+    "descr": "Ударить стол / Сломать все",
+    "choices": [
+      {
+        "text": "Ударить стол",
+        "next": "scene23"
+      },
+      {
+        "text": "Сломать все",
+        "next": "scene21"
+      }
+    ]
+  },
+  "scene23": {
+    "video": "/video/23.mp4",
+    "duration": 54.32,
+    "descr": "Ударить стол -> Взять фото / Взять книгу",
+    "choices": [
+      {
+        "text": "Взять фото",
+        "next": "scene24"
+      },
+      {
+        "text": "Взять книгу",
+        "next": "scene47"
+      }
+    ]
+  },
+  "scene24": {
+    "video": "/video/24.mp4",
+    "duration": 153.52,
+    "descr": "Взять фото -> Вылить чай / Сломать все",
+    "choices": [
+      {
+        "text": "Вылить чай",
+        "next": "scene25"
+      },
+      {
+        "text": "Сломать все",
+        "next": "scene70"
+      }
+    ]
+  },
+  "scene25": {
+    "video": "/video/25.mp4",
+    "duration": 43.28,
+    "descr": "Вылить чай -> Netflix / Белый медведь",
+    "choices": [
+      {
+        "text": "Netflix",
+        "next": "scene26"
+      },
+      {
+        "text": "Белый медведь",
+        "next": "scene38"
+      }
+    ]
+  },
+  "scene26": {
+    "video": "/video/26.mp4",
+    "duration": 30.28,
+    "descr": "Netflix -> Сказать больше / Не отвечать",
+    "choices": [
+      {
+        "text": "Сказать больше",
+        "next": "scene27"
+      },
+      {
+        "text": "Не отвечать",
+        "next": "scene77"
+      }
+    ]
+  },
+  "scene27": {
+    "video": "/video/27.mp4",
+    "duration": 24.72,
+    "descr": "Сказать больше -> Сказать больше / Не отвечать",
+    "choices": [
+      {
+        "text": "Сказать больше",
+        "next": "scene28"
+      },
+      {
+        "text": "Не отвечать",
+        "next": "scene77"
+      }
+    ]
+  },
+  "scene28": {
+    "video": "/video/28.mp4",
+    "duration": 136.96,
+    "descr": "Сказать больше -> Больше динамики?",
+    "choices": [
+      {
+        "text": "Да",
+        "next": "scene29"
+      },
+      {
+        "text": "ДАААА!",
+        "next": "scene29"
+      }
+    ]
+  },
+  "scene29": {
+    "video": "/video/29.mp4",
+    "duration": 23,
+    "descr": "Больше динамики -> Убежать / Напасть",
+    "choices": [
+      {
+        "text": "Убежать",
+        "next": "scene30"
+      },
+      {
+        "text": "Напасть",
+        "next": "scene56"
+      }
+    ]
+  },
+  "scene30": {
+    "video": "/video/30.mp4",
+    "duration": 92.25,
+    "type": "tv",
+    "descr": "Убежать -> Конец",
+    "choices": [
+      {
+        "text": "Пойти к психологу?",
+        "next": "scene31"
+      }
+    ]
+  },
+  "scene31": {
+    "video": "/video/31.mp4",
+    "duration": 25.48,
+    "descr": "Пойти к психологу -> Пойти к психологу / Идти за Колином",
+    "choices": [
+      {
+        "text": "Пойти к психологу",
+        "next": "scene16"
+      },
+      {
+        "text": "Идти за Колином",
+        "next": "scene32"
+      }
+    ]
+  },
+  "scene32": {
+    "video": "/video/32.mp4",
+    "duration": 207.12,
+    "descr": "Идти за Колином -> Принять ЛСД? Согласиться / Отказаться",
+    "choices": [
+      {
+        "text": "Согласиться",
+        "next": "scene33"
+      },
+      {
+        "text": "Отказаться",
+        "next": "scene76"
+      }
+    ]
+  },
+  "scene33": {
+    "video": "/video/33.mp4",
+    "duration": 269.76,
+    "descr": "Согласиться -> Прыгать / Не прыгать",
+    "choices": [
+      {
+        "text": "Прыгать",
+        "next": "scene34"
+      },
+      {
+        "text": "Не прыгать",
+        "next": "scene36"
+      }
+    ]
+  },
+  "scene34": {
+    "video": "/video/34.mp4",
+    "duration": 106,
+    "type": "tv",
+    "descr": "Прыгать -> Конец",
+    "choices": [
+      {
+        "text": "Пойти к психологу?",
+        "next": "scene31"
+      },
+      {
+        "text": "Прыгать?",
+        "next": "scene35"
+      }
+    ]
+  },
+  "scene35": {
+    "video": "/video/35.mp4",
+    "duration": 31.32,
+    "descr": "Прыгать / Не прыгать",
+    "choices": [
+      {
+        "text": "Прыгать",
+        "next": "scene34"
+      },
+      {
+        "text": "Не прыгать",
+        "next": "scene36"
+      }
+    ]
+  },
+  "scene36": {
+    "video": "/video/36.mp4",
+    "duration": 160.76,
+    "descr": "Не прыгать -> Взять фото / Взять книгу",
+    "isCalinAlife": false,
+    "choices": [
+      {
+        "text": "Взять фото",
+        "next": "scene37"
+      },
+      {
+        "text": "Взять книгу",
+        "next": "scene47"
+      }
+    ]
+  },
+  "scene37": {
+    "video": "/video/37.mp4",
+    "duration": 81.6,
+    "descr": "Взять фото2 -> Белый медведь / PAC",
+    "choices": [
+      {
+        "text": "Белый медведь",
+        "next": "scene38"
+      },
+      {
+        "text": "P.A.C.",
+        "next": "scene51"
+      }
+    ]
+  },
+  "scene38": {
+    "video": "/video/38.mp4",
+    "duration": 51.92,
+    "descr": "Белый медведь -> Ударить пепельницей / Остановиться",
+    "choices": [
+      {
+        "text": "Ударить пепельницей",
+        "next": "scene39"
+      },
+      {
+        "text": "Остановиться",
+        "next": "scene72"
+      }
+    ]
+  },
+  "scene39": {
+    "video": "/video/39.mp4",
+    "duration": 63,
+    "descr": "Ударить пепельницей -> Закопать тело / Расчленить тело",
+    "choices": [
+      {
+        "text": "Закопать тело",
+        "condition": {
+          "cases": [
+            {
+              "when": { "isCalinAlife": false },
+              "next": "scene40"
+            },
+            {
+              "when": { "isCalinAlife": true },
+              "next": "scene55"
+            }
+          ],
+          "default": "scene40"
+        }
+      },
+      {
+        "text": "Расчленить тело",
+        "next": "scene44"
+      }
+    ]
+  },
+  "scene40": {
+    "video": "/video/40.mp4",
+    "duration": 47.84,
+    "descr": "(Колин мертв) Закопать тело -> Успеешь? Да / Нет",
+    "choices": [
+      {
+        "text": "Да",
+        "next": "scene41"
+      },
+      {
+        "text": "Нет",
+        "next": "scene53"
+      }
+    ]
+  },
+  "scene41": {
+    "video": "/video/41.mp4",
+    "duration": 108.6,
+    "descr": "(Закопать, Колин мертв) Успею -> Сказать где Колин / Не говорить",
+    "choices": [
+      {
+        "text": "Сказать где Колин",
+        "next": "scene71"
+      },
+      {
+        "text": "Не говорить",
+        "next": "scene42"
+      }
+    ]
+  },
+  "scene42": {
+    "video": "/video/42.mp4",
+    "duration": 212.84,
+    "type": "tv",
+    "descr": "(Закопать, Колина нет) Не говорить -> Конец",
+    "choices": [
+      {
+        "text": "Закопать тело?",
+        "next": "scene43"
+      }
+    ]
+  },
+  "scene43": {
+    "video": "/video/43.mp4",
+    "duration": 65.48,
+    "descr": "Закопать тело / Расчленить тело",
+    "choices": [
+      {
+        "text": "Закопать тело",
+        "condition": {
+          "cases": [
+            {
+              "when": { "isCalinAlife": false },
+              "next": "scene40"
+            },
+            {
+              "when": { "isCalinAlife": true },
+              "next": "scene55"
+            }
+          ],
+          "default": "scene40"
+        }
+      },
+      {
+        "text": "Расчленить тело",
+        "next": "scene44"
+      }
+    ]
+  },
+  "scene44": {
+    "video": "/video/44.mp4",
+    "duration": 283.72,
+    "descr": "Финал (Колин жив) Расчленить тело -> Вылить чай / Сломать все",
+    "choices": [
+      {
+        "text": "Вылить чай",
+        "next": "scene45"
+      },
+      {
+        "text": "Сломать все",
+        "next": "scene74"
+      }
+    ]
+  },
+  "scene45": {
+    "video": "/video/45.mp4",
+    "descr": "(Финал) Вылить чай -> Конец"
+  },
+  "scene46": {
+    "video": "/video/46.mp4",
+    "duration": 33.04,
+    "descr": "Взять фото / Взять книгу",
+    "choices": [
+      {
+        "text": "Взять фото",
+        "next": "scene37"
+      },
+      {
+        "text": "Взять книгу",
+        "next": "scene47"
+      }
+    ]
+  },
+  "scene47": {
+    "video": "/video/47.mp4",
+    "duration": 118.56,
+    "type": "code",
+    "descr": "Взять книгу -> Ввести пароль",
+    "choices": [
+      {
+        "text": "TOY",
+        "next": "scene48"
+      },
+      {
+        "text": "P.A.C.",
+        "next": "scene50"
+      },
+      {
+        "text": "PAX",
+        "next": "scene69"
+      },
+      {
+        "text": "JFD",
+        "next": "scene64"
+      }
+    ],
+    "default": "scene64"
+  },
+  "scene48": {
+    "video": "/video/48.mp4",
+    "duration": 223.84,
+    "type": "tv",
+    "descr": "TOY -> Ввести пароль -> Конец",
+    "choices": [
+      {
+        "text": "Ввести пароль",
+        "next": "scene49"
+      }
+    ]
+  },
+  "scene49": {
+    "video": "/video/49.mp4",
+    "duration": 47.68,
+    "type": "code",
+    "descr": "Ввести пароль",
+    "choices": [
+      {
+        "text": "TOY",
+        "next": "scene48"
+      },
+      {
+        "text": "P.A.C.",
+        "next": "scene50"
+      },
+      {
+        "text": "PAX",
+        "next": "scene69"
+      },
+      {
+        "text": "JFD",
+        "next": "scene64"
+      }
+    ],
+    "default": "scene69"
+  },
+  "scene50": {
+    "video": "/video/50.mp4",
+    "duration": 229.96,
+    "descr": "PAC -> Белый медведь / PAC",
+    "choices": [
+      {
+        "text": "Белый медведь",
+        "next": "scene38"
+      },
+      {
+        "text": "P.A.C.",
+        "next": "scene51"
+      }
+    ]
+  },
+  "scene51": {
+    "video": "/video/51.mp4",
+    "duration": 129.92,
+    "type": "phone",
+    "descr": "PAC -> Ввести номер",
+    "choices": [
+      {
+        "text": "20541",
+        "next": "scene52"
+      },
+      {
+        "text": "wrong number",
+        "next": "scene65"
+      }
+    ],
+    "default": "scene65"
+  },
+  "scene52": {
+    "video": "/video/52.mp4",
+    "duration": 164.96,
+    "type": "tv",
+    "descr": "Верный номер -> Конец",
+    "choices": [
+      {
+        "text": "Идти к психологу?",
+        "next": "scene78"
+      },
+      {
+        "text": "Дать знак",
+        "next": "scene80"
+      }
+    ]
+  },
+  "scene53": {
+    "video": "/video/53.mp4",
+    "duration": 113.88,
+    "descr": "(Колин мертв) Не успею -> Сказать где Колин / Не говорить",
+    "choices": [
+      {
+        "text": "Сказать где Колин",
+        "next": "scene71"
+      },
+      {
+        "text": "Не говорить",
+        "next": "scene42"
+      }
+    ]
+  },
+  "scene54": {
+    "video": "/video/54.mp4",
+    "duration": 275.88,
+    "descr": "(Колин мертв, Frosties) Не пить таблетки -> Ударить стол / Сломать все",
+    "choices": [
+      {
+        "text": "Ударить стол",
+        "next": "scene23"
+      },
+      {
+        "text": "Сломать все",
+        "next": "scene21"
+      }
+    ]
+  },
+  "scene55": {
+    "video": "/video/55.mp4",
+    "duration": 50.04,
+    "descr": "(Колин жив) Закопать тело -> Успеешь? Да / Нет",
+    "choices": [
+      {
+        "text": "Да",
+        "next": "scene60"
+      },
+      {
+        "text": "Нет",
+        "next": "scene81"
+      }
+    ]
+  },
+  "scene56": {
+    "video": "/video/56.mp4",
+    "duration": 33,
+    "descr": "Напасть -> Плечо / Пах",
+    "choices": [
+      {
+        "text": "Ударить плечо",
+        "next": "scene57"
+      },
+      {
+        "text": "Ударить пах",
+        "next": "scene75"
+      }
+    ]
+  },
+  "scene57": {
+    "video": "/video/57.mp4",
+    "duration": 47.08,
+    "type": "tv",
+    "descr": "Ударить плечо -> Конец",
+    "choices": [
+      {
+        "text": "Взять книгу?",
+        "next": "scene46"
+      }
+    ]
+  },
+  "scene58": {
+    "video": "/video/58.mp4",
+    "duration": 52.36,
+    "type": "tv",
+    "descr": "Согласиться / Конец",
+    "choices": [
+      {
+        "text": "Согласиться?",
+        "next": "scene59"
+      }
+    ]
+  },
+  "scene59": {
+    "video": "/video/59.mp4",
+    "duration": 38.2,
+    "descr": "Согласился на оффер 3? -> Согласиться / Отказаться",
+    "choices": [
+      {
+        "text": "Согласиться",
+        "next": "scene58"
+      },
+      {
+        "text": "Отказаться",
+        "next": "scene9"
+      }
+    ]
+  },
+  "scene60": {
+    "video": "/video/60.mp4",
+    "duration": 108.84,
+    "descr": "(Закопать, Колин жив) Успею -> Отпустить / Убить",
+    "choices": [
+      {
+        "text": "Отпустить",
+        "next": "scene82"
+      },
+      {
+        "text": "Убить",
+        "next": "scene83"
+      }
+    ]
+  },
+  "scene61": {
+    "video": "/video/61.mp4",
+    "duration": 245.13,
+    "descr": "(Колин жив, Frosties) Не пить таблетки -> Ударить стол / Сломать все",
+    "choices": [
+      {
+        "text": "Ударить стол",
+        "next": "scene23"
+      },
+      {
+        "text": "Сломать все",
+        "next": "scene21"
+      }
+    ]
+  },
+  "scene62": {
+    "video": "/video/62.mp4",
+    "duration": 269.60,
+    "descr": "(Колин мертв, Sugar Puffs) Не пить таблетки -> Ударить стол / Сломать все",
+    "choices": [
+      {
+        "text": "Ударить стол",
+        "next": "scene23"
+      },
+      {
+        "text": "Сломать все",
+        "next": "scene21"
+      }
+    ]
+  },
+  "scene63": {
+    "video": "/video/63.mp4",
+    "duration": 118.56,
+    "type": "code",
+    "descr": "Взять книгу -> Ввести пароль",
+    "choices": [
+      {
+        "text": "TOY",
+        "next": "scene48"
+      },
+      {
+        "text": "P.A.C.",
+        "next": "scene50"
+      },
+      {
+        "text": "PAX",
+        "next": "scene69"
+      },
+      {
+        "text": "JFD",
+        "next": "scene64"
+      }
+    ],
+    "default": "scene64"
+  },
+  "scene64": {
+    "video": "/video/64.mp4",
+    "duration": 54.00,
+    "descr": "JFD -> Вылить чай / Сломать все",
+    "choices": [
+      {
+        "text": "Вылить чай",
+        "next": "scene25"
+      },
+      {
+        "text": "Сломать все",
+        "next": "scene70"
+      }
+    ]
+  },
+  "scene65": {
+    "video": "/video/65.mp4",
+    "duration": 149.68,
+    "type": "tv",
+    "descr": "Неверный номер -> Конец",
+    "choices": [
+      {
+        "text": "Идти к психологу?",
+        "next": "scene78"
+      },
+      {
+        "text": "Дать знак",
+        "next": "scene80"
+      }
+    ]
+  },
+  "scene66": {
+    "video": "/video/66.mp4",
+    "duration": 31.16,
+    "descr": "Ничего не рассказывать -> Поговорить о маме2 / Отказаться",
+    "choices": [
+      {
+        "text": "Поговорить о маме",
+        "next": "scene10"
+      },
+      {
+        "text": "Отказаться",
+        "next": "scene67"
+      }
+    ]
+  },
+  "scene67": {
+    "video": "/video/67.mp4",
+    "duration": 48.84,
+    "descr": "Отказаться -> Вылить чай / Наорать на отца",
+    "choices": [
+      {
+        "text": "Вылить чай",
+        "next": "scene13"
+      },
+      {
+        "text": "Наорать на отца",
+        "next": "scene15"
+      }
+    ]
+  },
+  "scene68": {
+    "video": "/video/68.mp4",
+    "duration": 188.36,
+    "descr": "Синий винил -> Вылить чай / Наорать на отца",
+    "choices": [
+      {
+        "text": "Вылить чай",
+        "next": "scene13"
+      },
+      {
+        "text": "Наорать на отца",
+        "next": "scene15"
+      }
+    ]
+  },
+  "scene69": {
+    "video": "/video/69.mp4",
+    "duration": 49.80,
+    "descr": "PAX -> Netflix / Белый медведь",
+    "choices": [
+      {
+        "text": "Netflix",
+        "next": "scene26"
+      },
+      {
+        "text": "Белый медведь",
+        "next": "scene38"
+      }
+    ]
+  },
+  "scene70": {
+    "video": "/video/70.mp4",
+    "duration": 42.28,
+    "descr": "Сломать все -> Netflix / Белый медведь",
+    "choices": [
+      {
+        "text": "Netflix",
+        "next": "scene26"
+      },
+      {
+        "text": "Белый медведь",
+        "next": "scene38"
+      }
+    ]
+  },
+  "scene71": {
+    "video": "/video/71.mp4",
+    "duration": 238.72,
+    "type": "tv",
+    "descr": "(Закопать, Колина нет) Сказать где Колин -> Конец",
+    "choices": [
+      {
+        "text": "Закопать тело?",
+        "next": "scene43"
+      }
+    ]
+  },
+  "scene72": {
+    "video": "/video/72.mp4",
+    "type": "tv",
+    "duration": 49,
+    "descr": "Остановиться -> Конец",
+    "choices": [
+      {
+        "text": "Взять фото?",
+        "next": "scene46"
+      },
+      {
+        "text": "Ударить!!!",
+        "next": "scene79"
+      }
+    ]
+  },
+  "scene73": {
+    "video": "/video/73.mp4",
+    "duration": 93.76,
+    "descr": "Дергать ухо -> Пить таблетки / Не пить",
+    "choices": [
+      {
+        "text": "Пить таблетки",
+        "next": "scene18"
+      },
+      {
+        "text": "Не пить"
+      }
+    ],
+    "condition": {
+      "cases": [
+        {
+          "when": {
+            "cereal": "Sugar Puffs",
+            "isCalinAlife": true
+          },
+          "next": "scene20"
+        },
+        {
+          "when": {
+            "cereal": "Sugar Puffs",
+            "isCalinAlife": false
+          },
+          "next": "scene62"
+        },
+        {
+          "when": {
+            "cereal": "Frosties",
+            "isCalinAlife": true
+          },
+          "next": "scene61"
+        },
+        {
+          "when": {
+            "cereal": "Frosties",
+            "isCalinAlife": false
+          },
+          "next": "scene54"
+        }
+      ],
+      "default": "scene20"
+    }
+  },
+  "scene74": {
+    "video": "/video/74.mp4",
+    "descr": "(Финал) Сломать все -> Конец"
+  },
+  "scene75": {
+    "video": "/video/75.mp4",
+    "duration": 48.4,
+    "type": "tv",
+    "descr": "Ударить пах -> Конец",
+    "choices": [
+      {
+        "text": "Взять книгу?",
+        "next": "scene46"
+      }
+    ]
+  },
+  "scene76": {
+    "video": "/video/76.mp4",
+    "duration": 274.48,
+    "descr": "Отказаться -> Прыгать / Не прыгать",
+    "choices": [
+      {
+        "text": "Прыгать",
+        "next": "scene34"
+      },
+      {
+        "text": "Не прыгать",
+        "next": "scene36"
+      }
+    ]
+  },
+  "scene77": {
+    "video": "/video/77.mp4",
+    "duration": 122.88,
+    "descr": "Не отвечать -> Больше динамики?",
+    "choices": [
+      {
+        "text": "Да",
+        "next": "scene29"
+      },
+      {
+        "text": "ДАААА!",
+        "next": "scene29"
+      }
+    ]
+  },
+  "scene78": {
+    "video": "/video/78.mp4",
+    "duration": 28.64,
+    "descr": "Идти к психологу / Идти за Колином",
+    "choices": [
+      {
+        "text": "Идти к психологу",
+        "next": "scene16"
+      },
+      {
+        "text": "Идти за Колином",
+        "next": "scene32"
+      }
+    ]
+  },
+  "scene79": {
+    "video": "/video/79.mp4",
+    "duration": 72.04,
+    "descr": "Ударить пепельницей -> Закопать тело / Расчленить тело",
+    "choices": [
+      {
+        "text": "Закопать тело",
+        "condition": {
+          "cases": [
+            {
+              "when": { "isCalinAlife": false },
+              "next": "scene40"
+            },
+            {
+              "when": { "isCalinAlife": true },
+              "next": "scene55"
+            }
+          ],
+          "default": "scene40"
+        }
+      },
+      {
+        "text": "Расчленить тело",
+        "next": "scene44"
+      }
+    ]
+  },
+  "scene80": {
+    "video": "/video/80.mp4",
+    "duration": 45.48,
+    "descr": "Дать знак -> Netflix / Белый медведь",
+    "choices": [
+      {
+        "text": "Netflix",
+        "next": "scene26"
+      },
+      {
+        "text": "Белый медведь",
+        "next": "scene38"
+      }
+    ]
+  },
+  "scene81": {
+    "video": "/video/81.mp4",
+    "type": "tv",
+    "duration": 243,
+    "descr": "(Закопать, Колин жив, идет Босс) Не успею -> Конец",
+    "choices": [
+      {
+        "text": "Закопать тело?",
+        "next": "scene43"
+      }
+    ]
+  },
+  "scene82": {
+    "video": "/video/82.mp4",
+    "type": "tv",
+    "duration": 182.08,
+    "descr": "Отпустить -> Конец",
+    "choices": [
+      {
+        "text": "Закопать тело?",
+        "next": "scene43"
+      }
+    ]
+  },
+  "scene83": {
+    "video": "/video/83.mp4",
+    "type": "tv",
+    "duration": 174.2,
+    "descr": "Убить -> Конец",
+    "choices": [
+      {
+        "text": "Закопать тело?",
+        "next": "scene43"
+      }
+    ]
+  }
+}
