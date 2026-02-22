@@ -358,33 +358,25 @@ export default function App() {
           <div className="disclaimer-content">
             <h2>Добро пожаловать в Bandersnatch</h2>
 
-            <p style={{ marginBottom: "1.5rem", lineHeight: "1.6" }}>
-              Данный проект представляет собой любительскую интерактивную реконструкцию эпизода «Bandersnatch» из сериала «Чёрное зеркало».
+            <p>
+              Данный проект представляет собой любительскую реконструкцию интерактивного эпизода «Bandersnatch» из сериала «Чёрное зеркало».
             </p>
 
-            <p style={{ marginBottom: "1rem", fontWeight: "bold" }}>
+            <p>
               Для наилучшего погружения рекомендуется развернуть окно браузера на полный экран:
             </p>
 
-            <ul 
-              style={{ 
-                textAlign: "center", 
-                margin: "0.8rem auto 1.8rem", 
-                paddingLeft: "0", 
-                listStylePosition: "inside", 
-                maxWidth: "400px" 
-              }}
-            >
+            <ul>
               <li>Windows — клавиша <strong>F11</strong></li>
               <li>macOS — сочетание <strong>Cmd + Shift + F</strong></li>
             </ul>
 
-            <p style={{ marginBottom: "1rem" }}>
+            <p>
               Вам будет отведено 10 секунд на принятие решения за персонажа.  
               Выбор нельзя отменить или остановить. По истечении времени решение будет принято автоматически.
             </p>
 
-            <p style={{ marginBottom: "2rem" }}>
+            <p>
               В эпизоде существует несколько концовок.  
               <strong>Главная цель</strong> — помочь главному герою создать лучшую игру.
             </p>
@@ -396,7 +388,7 @@ export default function App() {
         </div>
       ) : (
         <div className="app">
-          <video ref={videoRef} style={{ width: "100%" }} controls disablePictureInPicture />
+          <video ref={videoRef} controls disablePictureInPicture />
 
           {showChoices && scene?.choices && (
             <div className="choices">
